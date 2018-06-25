@@ -4,5 +4,5 @@ def run_guessing_game
   input = gets.chomp
   if input >=1 and input <= 6
     puts "You guessed the correct number!"
-    puts ""
+    puts "The computer guessed #{input}"
 end
