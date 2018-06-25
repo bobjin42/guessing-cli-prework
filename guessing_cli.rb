@@ -7,7 +7,8 @@ def run_guessing_game
     if input.to_f == num
       puts "You guessed the correct number!"
     elsif input == "exit"
-      return "Goodbye!" 
+      puts "Goodbye!"
+      break
     else
       puts "The computer guessed #{num}."
     end
